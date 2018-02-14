@@ -11,7 +11,7 @@ deploy:
   provider: heroku
   api_key:
     secure: TXIYKQ4zktmQbKbPK6IuQaHHDvc6YEGMQOAGbnyqnWDs6sprSmstDT08YuhIK8sumq6ByyFwlbiYNnxPBs3qyLSbFZShdO9KC2pO2j5PNt/dwkvYNEMiiTIxn5lRuJmEELuZekeZpQp6/bSwY7xJ1MmFzcB6vttcK0qRmOsy2bYcjXrZOG5zTuKTjhl9Qetem2u+4KejCZMv4nZze3HNuy2Tpdzes4uTiwwfwcn3rwXYaAgifwVYaE0AyQN0EEN/6iiLDM/AfcKjdon25e3ND6AuR0sg/wHt7A341Swf8qkDChoRXDBleCNOrdLQpS8b2ntpao/drqW/VKucUdktyDvZ5dDQu983juQNSw5LAAZNIlWoy5r2VTeMI3qE+J//XobuubcqH4b3D9pyQo5JSastchUaUwwSfUbt0iE5u3RQF+cu7gdnoxT7bGFHgm7IwmMprosUPMKjHrkkwbSQBD9WG0CTV3f5mklRnDNhn00ddRJ1QuKnggVOhj+OToq/KCRRhZU4q8KziuJjB7PBS8gfJjawlyBkK8yo0tqpT/mGxMjX642sV7zHI0Nsklsylnjptznoll0avJuQlAEp0JNok6/yK3wLkiOOKqES+5XPf4DBd7mup9csGX3p1B8YQQOugZkgMFD3wcHy7C4nvpY046Y2OEXD7Yx4V4EsxxM=
-  app: 5iw2-InduEnvWeb
+  app: project-induenvweb
   on:
     repo: hpatelfr/5iw2-InduEnvWeb
     branch: deployement
