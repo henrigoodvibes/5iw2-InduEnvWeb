@@ -1,7 +1,12 @@
 language: php
-php: 7.0 7.1
+
+php:
+  7.0
+  7.1
+
 script:
-- if [[ "$WITH_COVERAGE" == "true" ]]; then xdebug-enable; fi
+    - if [[ "$WITH_COVERAGE" == "true" ]]; then xdebug-enable; fi
+
 deploy:
   provider: heroku
   api_key:
@@ -10,10 +15,9 @@ deploy:
   on:
     repo: hpatelfr/5iw2-InduEnvWeb
     branch: deployement
-    php: "7.1"
 notifications:
-  email:
-    recipients:
-    - hir.pat.fr@gmail.com
-    on_success: never
-    on_failure: always
+    email:
+      recipients:
+          - hir.pat.fr@gmail.com
+      on_success: never
+      on_failure: never
