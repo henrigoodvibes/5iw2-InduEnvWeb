@@ -15,3 +15,10 @@ deploy:
     provider: heroku
     api_key:
         secure: "9c4162e1-0162-4315-9369-13b853445656"
+
+notifications:
+  email:
+    recipients:
+      - hir.pat.fr@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
