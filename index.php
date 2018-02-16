@@ -3,4 +3,4 @@
 
 ?>
 
-<img src="https://picsum.photos/200">
+<img src="https://picsum.photos/200" alt="texte-alternatif">
