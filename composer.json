@@ -1,0 +1,13 @@
+{
+    "name": "hpatelfr/5iw2-InduEnvWeb",
+    "description": "5IW2 Hiren PATEL",
+    "authors": [
+        {
+            "name": "hpatelfr",
+            "email": "hir.pat@outlook.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.7"
+    }
+}
